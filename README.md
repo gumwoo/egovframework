@@ -46,3 +46,17 @@
 *   **Ajax**:
     *   **JSON**: `@ResponseBody`와 Jackson 라이브러리 활용.
     *   **XML**: JDOM을 이용한 XML 응답 생성 및 파싱.
+
+### [6. 보안 (Security)](docs/6_보안.md) ⭐ **실무 필수**
+*   **비밀번호 암호화**: BCrypt를 이용한 안전한 비밀번호 저장 및 검증.
+*   **세션 보안**:
+    *   세션 고정 공격(Session Fixation) 방어.
+    *   인터셉터를 통한 로그인 체크 자동화.
+*   **XSS 방어**: `<c:out>` 태그 및 Lucy XSS Filter 적용.
+*   **SQL Injection 방어**: MyBatis `#{}` vs `${}` 차이 및 안전한 쿼리 작성법.
+*   **파일 업로드 보안**:
+    *   화이트리스트 기반 확장자 검증.
+    *   Path Traversal 공격 방어.
+    *   웹쉘 업로드 차단.
+*   **CSRF 방어**: Spring Security CSRF 토큰 적용.
+*   **실무 체크리스트**: 배포 전 필수 확인 항목.
