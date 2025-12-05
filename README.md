@@ -47,7 +47,7 @@
     *   **JSON**: `@ResponseBody`와 Jackson 라이브러리 활용.
     *   **XML**: JDOM을 이용한 XML 응답 생성 및 파싱.
 
-### [6. 보안 (Security)](docs/6_보안.md) ⭐ **실무 필수**
+### [6. 보안 (Security)](docs/6_보안.md)
 *   **비밀번호 암호화**: BCrypt를 이용한 안전한 비밀번호 저장 및 검증.
 *   **세션 보안**:
     *   세션 고정 공격(Session Fixation) 방어.
