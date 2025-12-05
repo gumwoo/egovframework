@@ -1,9 +1,8 @@
-# 전자정부 프레임워크 실전 학습 (eGovFramework Practical Training)
+# 전자정부 프레임워크 학습
 
-이 저장소는 전자정부 프레임워크와 Spring MVC의 핵심 원리부터 실전 계층형 게시판 구현까지 학습한 내용을 정리한 프로젝트입니다.
-`docs/` 디렉토리에 포함된 상세 학습 문서를 바탕으로 구성되었습니다.
+전자정부 프레임워크와 Spring MVC의 핵심 원리부터 실전 계층형 게시판 구현까지 학습한 내용을 정리한 프로젝트입니다.
 
-## 🛠 개발 환경 (Environment)
+## 개발 환경
 
 *   **Framework**: eGovFramework 3.10.0, Spring Framework 5.3.6
 *   **Database**: PostgreSQL (v42.3.8 Driver)
@@ -11,9 +10,9 @@
 *   **WAS**: Apache Tomcat
 *   **Build**: Maven
 
-## 📚 학습 내용 요약 (Documentation)
+## 학습 내용 요약
 
-이 프로젝트는 다음의 단계별 학습 내용을 포함하고 있습니다. 상세한 내용은 `docs/` 폴더의 각 문서를 참고하세요.
+이 프로젝트는 다음의 단계별 학습 내용을 포함하고 있습니다.
 
 ### [1. 기본기 다지기](docs/1_기본기_다지기.md)
 *   **프로젝트 구조**: `src/main/java`, `src/main/resources`, `src/main/webapp` 등 표준 디렉토리 구조 이해.
@@ -34,7 +33,7 @@
     *   핵심 로직과 공통 기능(로그, 트랜잭션 등) 분리.
     *   `@Aspect` 어노테이션을 이용한 AOP 구현.
 
-### [4. 실전! 계층형 게시판](docs/4_실전_계층형_게시판.md)
+### [4. 계층형 게시판](docs/4_실전_계층형_게시판.md)
 *   **DB 설계**: `GROUP_NUM`, `GROUP_ORDER`, `GROUP_TAB` 컬럼을 이용한 계층 구조 설계.
 *   **답글 로직**:
     *   부모 글의 정보를 바탕으로 자리 확보(`UPDATE`) 후 삽입(`INSERT`).
@@ -47,6 +46,3 @@
 *   **Ajax**:
     *   **JSON**: `@ResponseBody`와 Jackson 라이브러리 활용.
     *   **XML**: JDOM을 이용한 XML 응답 생성 및 파싱.
-
----
-*Created based on the documentation in `docs/`.*
