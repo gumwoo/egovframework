@@ -60,3 +60,9 @@
     *   웹쉘 업로드 차단.
 *   **CSRF 방어**: Spring Security CSRF 토큰 적용.
 *   **실무 체크리스트**: 배포 전 필수 확인 항목.
+
+### [7. 테스트 코드 (Reliable Code)](docs/7_테스트_코드.md)
+*   **JUnit 5**: 단위 테스트 프레임워크 기초 및 어노테이션(`@Test`, `@BeforeEach`).
+*   **Mockito**: Service 계층 테스트를 위한 Mock 객체 활용 (DAO 가짜 객체 주입).
+*   **MockMvc**: Controller 테스트를 위한 가짜 브라우저 요청 및 검증.
+*   **TDD**: 테스트 주도 개발 방법론 소개.
