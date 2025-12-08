@@ -66,3 +66,8 @@
 *   **Mockito**: Service 계층 테스트를 위한 Mock 객체 활용 (DAO 가짜 객체 주입).
 *   **MockMvc**: Controller 테스트를 위한 가짜 브라우저 요청 및 검증.
 *   **TDD**: 테스트 주도 개발 방법론 소개.
+
+### [8. 디버깅 및 문제 해결 (Troubleshooting)](docs/8_디버깅_및_문제해결.md)
+*   **IntelliJ Debugger**: 브레이크포인트, Step Over/Into, 변수 값 변경(Evaluate Expression) 활용법.
+*   **로그 추적**: Stack Trace 분석(Caused by 찾기) 및 로그 레벨 활용.
+*   **자주 겪는 에러**: 404, 500, BeanCreationException 등 대표 에러 원인 및 해결책.
